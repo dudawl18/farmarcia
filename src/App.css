@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+
+.header-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--cor-6);
+  height: 100px;
+
+}
+.navbarInput{
+  width: 490px;
+  height: 25px;
+  border-radius: 15px;
+  border: 1px solid var(--cor-1);
+}
+
+
+
+a{
+  text-decoration: none;
+  color: var(--cor-4);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Lucida Sans';
+}
+
+h1{
+  color: var(--cor-4);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Lucida Sans';
+}
