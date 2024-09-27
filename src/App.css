@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   color: var(--cor-4);
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 690;
   font-family: 'Lucida Sans';
 }
 
@@ -49,37 +49,64 @@ body {
 
 .ladoEsquerdo {
   padding: 20px;
-  margin-left: 2%;
+  margin-left: 3%;
   width: fit-content;
   height: max-content;
 }
 
-.imageBody {
-  border-radius: 20px;
-  box-shadow: 5px 5px 0 var(--cor-1);
+.tituloBodyHomeP{
+  margin-top: 4%;
+  color: var(--cor-4);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Lucida Sans';
+  
 }
 
-.ladoDireito {
+.imageBodyHomeP {
+  border-radius: 25px;
+  box-shadow: 5px 5px 0 var(--cor-1);
+  width: 960px;
+}
+
+.ladoDireitoHomeP {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 5.9%;
-  margin-left: 10%;
-  width: 20%;
+  margin-left: 9%;
   height: 300px;
+
 
   background-color: var(--cor-2);
   border-radius: 20px;
   box-shadow: 5px 5px 0 var(--cor-1);
 }
 
-.topicosBody {
+.tituloBodyLadoD{
+  margin-top: 4%;
+  color: var(--cor-4);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Lucida Sans';
+  padding: 10px;
+}
+
+.buttonHomeP {
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
+  background-color: var(--cor-6);
   color: var(--cor-4);
   text-transform: uppercase;
   font-weight: 800;
   font-family: 'Lucida Sans';
   font-size: 18px;
-  padding: 5px;
+  padding: 8px;
+  margin-top: 3%;
+}
+
+.buttonHomeP:hover{
+  background-color: var(--cor-5);
 }
