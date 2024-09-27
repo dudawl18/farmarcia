@@ -1,25 +1,41 @@
-body{
+body {
   margin: 0;
+  background-color: var(--cor-5);
 }
 
-.header-container{
+.header-container {
   align-items: center;
   display: flex;
   justify-content: space-around;
   background-color: var(--cor-6);
   height: 100px;
-
 }
-.navbarInput{
+
+.logo {
+  width: 120px;
+}
+
+.titulos {
+  color: var(--cor-4);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Lucida Sans';
+}
+
+.navbarInput {
   width: 490px;
-  height: 25px;
+  height: 15px;
+  background-color: var(--cor-2);
   border-radius: 15px;
   border: 1px solid var(--cor-1);
+  outline-color: var(--cor-1);
+  color: var(--cor-4);
+  font-weight: 600;
+  font-family: 'Lucida Sans';
+  padding: 7px;
 }
 
-
-
-a{
+.topicosHeader {
   text-decoration: none;
   color: var(--cor-4);
   text-transform: uppercase;
@@ -27,9 +43,43 @@ a{
   font-family: 'Lucida Sans';
 }
 
-h1{
+.totalBody{
+  display: flex;
+}
+
+.ladoEsquerdo {
+  padding: 20px;
+  margin-left: 2%;
+  width: fit-content;
+  height: max-content;
+}
+
+.imageBody {
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 var(--cor-1);
+}
+
+.ladoDireito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.9%;
+  margin-left: 10%;
+  width: 20%;
+  height: 300px;
+
+  background-color: var(--cor-2);
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 var(--cor-1);
+}
+
+.topicosBody {
+  text-decoration: none;
   color: var(--cor-4);
   text-transform: uppercase;
   font-weight: 800;
   font-family: 'Lucida Sans';
+  font-size: 18px;
+  padding: 5px;
 }
