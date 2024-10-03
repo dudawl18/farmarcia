@@ -1,0 +1,19 @@
+.campanha-container {
+    padding: 4%;
+}
+
+.campanhaTitulo {
+    color: var(--cor-1);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    padding: 5px;
+}
+
+.imgCamisetas {
+    border-radius: 10px;
+    margin-left: 20%;
+    width: 450px;
+    height: 400px;
+}

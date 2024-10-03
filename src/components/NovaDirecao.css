@@ -1,0 +1,21 @@
+.novaDirecao-container{
+    padding: 4%;
+}
+
+.tituloPrincipal {
+    color: var(--cor-1);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    padding: 5px;
+}
+
+.descricaoNovaDirecao{
+    color: var(--cor-3);
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Lucida Sans';
+    padding: 5px;
+    text-align: justify;
+}
