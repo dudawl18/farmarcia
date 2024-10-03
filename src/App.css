@@ -43,7 +43,7 @@ body {
   font-family: 'Lucida Sans';
 }
 
-.totalBody{
+.totalBody {
   display: flex;
 }
 
@@ -54,13 +54,13 @@ body {
   height: max-content;
 }
 
-.tituloBodyHomeP{
+.tituloBodyHomeP {
   margin-top: 4%;
   color: var(--cor-4);
   text-transform: uppercase;
   font-weight: 800;
   font-family: 'Lucida Sans';
-  
+
 }
 
 .imageBodyHomeP {
@@ -75,22 +75,26 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 5.9%;
-  margin-left: 9%;
+  margin-left: 7%;
   height: 300px;
 
-
-  background-color: var(--cor-2);
-  border-radius: 20px;
-  box-shadow: 5px 5px 0 var(--cor-1);
 }
 
-.tituloBodyLadoD{
-  margin-top: 4%;
+.tituloBodyLadoD {
+  margin-top: 55%;
   color: var(--cor-4);
   text-transform: uppercase;
   font-weight: 800;
+  font-size: 40px;
   font-family: 'Lucida Sans';
-  padding: 10px;
+  padding: 5px;
+}
+
+.descricaoBodyLadoD {
+  font-family: 'Lucida Sans';
+  color: var(--cor-3);
+  font-size: 26px;
+
 }
 
 .buttonHomeP {
@@ -107,6 +111,6 @@ body {
   margin-top: 3%;
 }
 
-.buttonHomeP:hover{
+.buttonHomeP:hover {
   background-color: var(--cor-5);
 }

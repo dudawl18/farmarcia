@@ -10,7 +10,7 @@ function Header() {
             <div className='header-container'>
                 <img src={Logo} className='logo' alt="duas maões em formato de concha vistas de lado viradas para cima comum coração vermelho flutuando no meio delas" />
                 <h1 className='titulos'>Farmárcia</h1>
-                <input className='navbarInput' type="text" placeholder='Pesquise seu produto' />
+                <input className='navbarInput' type="text" placeholder='Pesquise sua informação'/>
             </div>
 
         </header>
