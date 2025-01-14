@@ -23,6 +23,7 @@ body {
   font-family: 'Lucida Sans';
   border: none;
   font-size: 37px;
+  cursor: pointer;
 }
 
 .navbarInput {
